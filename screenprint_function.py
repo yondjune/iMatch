@@ -2,9 +2,9 @@
 """
 2015-12-6
 [iMatch screen print script ]
-# To Generate the screen printed jpg and
-save the diary page
-Python
+# To Generate the screen printed jpg and save the diary page
+ 
+ Python
 *install PIL module
 
 # written by  github  @yondjune
