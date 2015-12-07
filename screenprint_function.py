@@ -1,16 +1,15 @@
 # -*- coding: utf-8 -*-
 """
-Spyder Editor
-
 2015-12-6
 [iMatch screen print script ]
 # To Generate the screen printed jpg and
 save the diary page
+Python
+*install PIL module
 
-#
-written by  github  @yondjune
-
+# written by  github  @yondjune
 """
+
 import time
 from datetime import datetime
 i = time.strftime('%Y-%m-%d %H-%M-%S')
