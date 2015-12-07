@@ -19,9 +19,8 @@ print str(i)
 
 import ImageGrab
 img = ImageGrab.grab()
-img.show()
 img.save(i+".jpg")
-
+img.show()
 # img.save(i+".jpg") - save to default path / directory
 # If assign to another path 
 # img.save('H:/005.jpg','JPEG') why I failed ???
