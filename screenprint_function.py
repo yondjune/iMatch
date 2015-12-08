@@ -4,7 +4,7 @@
 [iMatch screen print script ]
 # To Generate the screen printed jpg and save the diary page
  
- Python
+ Python 2.7.9 WIN32
 *install PIL module
 
 # written by  github  @yondjune
