@@ -31,22 +31,28 @@
 ## 任务分解
 
 - [x] Qpython 基本框架
-- [] APP web 设置
+- [x] APP web 设置
 	- [x] 上载图片 use bottle
-	- [] 主要功能
+	- [x] 主要功能
 		- [x] 页面的 layout html
 		- [x] 添加图片
 		- [x] 实现图片添加功能
 		- [x] 添加图片的显示
-		- [] 保存功能 截图
+		- [x] 保存功能 截图
 > 这里面思路是 使用jinja2 使用父模板和子模板 来实现
 现在 就是在攻克这个问题:（在这里卡壳了 技术还不够）
 0-1个layout.html 
 1-3个添加图片 使用 button
 2-每个button之后 就显示添加的图片
 3-图片上载使用 input file 通过 request 来get 图片 并要显示
-
-- [] 数据库
+- [] 数据库 关于数据 storge [data-storage](http://developer.android.com/guide/topics/data/data-storage.html) 
+	- [x] 添加的图片 确定添加到本地存储 Internal Storage
+	- [x] 截图现在也在本地
+	- [] 截图保存在云端 选择什么呢
+- [] 截图可供分享 
+	- [] 分享功能包括截图
+	- [] 一键分享到sina微博
+	- [] 一键分享到朋友圈 like 网易云音乐分享
 - [] 编译成APK
 
 ## 迭代进行
@@ -101,6 +107,7 @@
 		- [x] 功能实现
 			- [x] layout save button
 			- [x] 截图 route 并返回 index html 页面
+	- [] 搭配截图 保存到云端
 
 ## 8-10w
 
