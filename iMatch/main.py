@@ -5,6 +5,7 @@
 #qpy://127.0.0.1:8080/
 '''
 Qpython webapp: iMatch
+Author: iMatch Team merber: github@JeremiahZhang
 Email: zhangleisuda@gmail.com
 Version 1.0
 '''
@@ -16,6 +17,9 @@ from bottle import route, run, debug, template, error
 from bottle import get, post, request, static_file
 from bottle import jinja2_template
 from bottle import TEMPLATE_PATH
+
+import time
+import pyscreenshot as ImageGrab
 
 ### 常量定义 ###
 ROOT = os.path.dirname(os.path.abspath(__file__))
@@ -96,6 +100,20 @@ def do_upload_img(id):
     global images
     images[id] = upload.filename
     return jinja2_template('showimg.html', img_dict=images)
+
+@app.route('/save')
+def save():
+    img_path = ROOT + "/image" # saved image path
+    tStamp = time.time()
+    img_time = time.strftime("%Y-%m-%d-%H-%M", time.localtime(int(tStamp)))
+    # full screen
+    img = ImageGrab.grab() # .grab(bbox(10,10,510,510)) X1 Y1 X2 Y2
+    img_name = img_time + ".jpg"
+    img.save(img_path + "/" + img_name)
+    # clear the 3 images
+    global images
+    images = {1:None, 2:None, 3:None}
+    return jinja2_template('index.html')
 
 ### Qpy exit and monitor ###
 app.route('/__exit', method=['GET', 'HEAD'])(__exit)
