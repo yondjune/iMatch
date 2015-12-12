@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block show_img %}
+    {% for id in range(1, 4) %}
+        {% if img_dict[id] %}
+            <img src="/static/{{ img_dict[id] }}" alt="picture one" width="80" height="80"><br>
+        {% else %}
+            <h1><a href="/addimage/{{ id }}" class="button button-fill button-big color-yellw">+</a></h1><br>
+        {% endif %}
+    {% endfor %}
+{% endblock %}
