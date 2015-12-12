@@ -92,11 +92,13 @@
 - 8wd6
 	- [] HTML 和 CSS 美化 这个可以挪到最后 恩	
 	- [] 退出和保存
-	- [] 保存截图
+	- [x] 保存截图
 		- [X] 确定 [PILLOW](https://pillow.readthedocs.org/en/3.0.x/handbook/tutorial.html)
-		- [] 功能实现
-			- [] layout save button
-			- [] 截图 route 并返回 index html 页面
+			- [x] 问题 but ImageGrab 只能使用mac os 和 window 系统
+			- 解决 使用 [pyscreenshot](https://pypi.python.org/pypi/pyscreenshot) 来替代
+		- [x] 功能实现
+			- [x] layout save button
+			- [x] 截图 route 并返回 index html 页面
 
 ## 8-10w
 
