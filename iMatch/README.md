@@ -91,7 +91,9 @@
 			- qpython pip install jinja2
 - 8wd6
 	- [] HTML 和 CSS 美化 这个可以挪到最后 恩	
-	- [] 退出和保存
+	- [x] 退出
+		- [x] __exit stop server but note exit the app page
+		- [] 退出 app
 	- [x] 保存截图
 		- [X] 确定 [PILLOW](https://pillow.readthedocs.org/en/3.0.x/handbook/tutorial.html)
 			- [x] 问题 but ImageGrab 只能使用mac os 和 window 系统
