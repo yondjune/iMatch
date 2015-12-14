@@ -45,15 +45,15 @@
 1-3个添加图片 使用 button
 2-每个button之后 就显示添加的图片
 3-图片上载使用 input file 通过 request 来get 图片 并要显示
-- [] 数据库 关于数据 storge [data-storage](http://developer.android.com/guide/topics/data/data-storage.html) 
+- [ ] 数据库 关于数据 storge [data-storage](http://developer.android.com/guide/topics/data/data-storage.html) 
 	- [x] 添加的图片 确定添加到本地存储 Internal Storage
 	- [x] 截图现在也在本地
-	- [] 截图保存在云端 选择什么呢
-- [] 截图可供分享 
-	- [] 分享功能包括截图
-	- [] 一键分享到sina微博
-	- [] 一键分享到朋友圈 like 网易云音乐分享
-- [] 编译成APK
+	- [ ] 截图保存在云端 选择什么呢
+- [ ] 截图可供分享 
+	- [ ] 分享功能包括截图
+	- [ ] 一键分享到sina微博
+	- [ ] 一键分享到朋友圈 like 网易云音乐分享
+- [ ] 编译成APK
 
 ## 迭代进行
 
@@ -96,7 +96,7 @@
 			- bottle 推到Qpython 项目文件目录下 未果
 			- qpython pip install jinja2
 - 8wd6
-	- [] HTML 和 CSS 美化 这个可以挪到最后 恩	
+	- [ ] HTML 和 CSS 美化 这个可以挪到最后 恩	
 	- [x] 退出
 		- [x] __exit stop server but note exit the app page
 		- [] 退出 app
@@ -107,7 +107,9 @@
 		- [x] 功能实现
 			- [x] layout save button
 			- [x] 截图 route 并返回 index html 页面
-	- [] 搭配截图 保存到云端
+	- [ ] 搭配截图 保存到云端
+- 9wd1
+	- [ ] sina 微博分享功能 [主要参考](https://github.com/mobileresearch/weibo_android_sdk)  
 
 ## 8-10w
 
