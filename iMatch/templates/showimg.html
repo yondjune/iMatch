@@ -2,9 +2,13 @@
 {% block show_img %}
     {% for id in range(1, 4) %}
         {% if img_dict[id] %}
-            <img src="/static/{{ img_dict[id] }}" alt="picture one" width="80" height="80"><br>
+            <div id="Photoframe{{ id }}">
+                <img src="/static/{{ img_dict[id] }}" alt="picture one" height="155" width="157">
+            </div>
         {% else %}
-            <h1><a href="/addimage/{{ id }}" class="button button-fill button-big color-yellw">+</a></h1><br>
+            <div id="Photoframe{{ id }}">
+                <a href="/addimage/{{ id }}" class="button"><img src="/assets/images/Photoframe{{ id }}.png"></a>
+            </div>
         {% endif %}
     {% endfor %}
 {% endblock %}
