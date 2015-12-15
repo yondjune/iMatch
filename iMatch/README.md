@@ -109,8 +109,11 @@
 			- [x] 截图 route 并返回 index html 页面
 	- [ ] 搭配截图 保存到云端
 - 9wd1
-	- [ ] sina 微博分享功能 [主要参考](https://github.com/mobileresearch/weibo_android_sdk)  
-
+	- [ ] sina 微博分享功能 [主要参考](https://github.com/mobileresearch/weibo_android_sdk) 
+		- [微博SDK及DEMO工程目录结构及分析](https://github.com/mobileresearch/weibo_android_sdk#%E5%BE%AE%E5%8D%9Asdk%E5%8F%8Ademo%E5%B7%A5%E7%A8%8B%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84%E5%8F%8A%E5%88%86%E6%9E%90) 
+> 第三方在使用时，如果只想要授权和分享功能，可直接使用weibosdkcore.jar 
+		- [x] 注册成为开发者[新手指南](http://open.weibo.com/wiki/%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97) 
+		- [ ] 
 ## 8-10w
 
 - 作品测试
