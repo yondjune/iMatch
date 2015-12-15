@@ -95,8 +95,7 @@
 		- [x] 问题 bottle 没有 jinja2 模块
 			- bottle 推到Qpython 项目文件目录下 未果
 			- qpython pip install jinja2
-- 8wd6
-	- [ ] HTML 和 CSS 美化 这个可以挪到最后 恩	
+- 8wd6	
 	- [x] 退出
 		- [x] __exit stop server but note exit the app page
 		- [] 退出 app
@@ -112,8 +111,11 @@
 	- [ ] sina 微博分享功能 [主要参考](https://github.com/mobileresearch/weibo_android_sdk) 
 		- [微博SDK及DEMO工程目录结构及分析](https://github.com/mobileresearch/weibo_android_sdk#%E5%BE%AE%E5%8D%9Asdk%E5%8F%8Ademo%E5%B7%A5%E7%A8%8B%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84%E5%8F%8A%E5%88%86%E6%9E%90) 
 > 第三方在使用时，如果只想要授权和分享功能，可直接使用weibosdkcore.jar 
-		- [x] 注册成为开发者[新手指南](http://open.weibo.com/wiki/%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97) 
-		- [ ] 
+		- [x] 注册成为开发者[新手指南](http://open.weibo.com/wiki/%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97)
+- 9wd2
+	- [x] HTML 和 CSS 美化 结合 june 制作的模板 本地网页端可行
+		- 效果![显示图片成功](http://dn-jeremiahzhang.qbox.me/imatch_finish.png)
+
 ## 8-10w
 
 - 作品测试
