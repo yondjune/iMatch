@@ -71,6 +71,10 @@ def serve_static(filepath):
     img_path = ROOT + "/image"
     return static_file(filepath, root=img_path)
 
+@app.route('/assets/<filepath:path>')
+def server_assets(filepath):
+    return static_file(filepath, root=ROOT+"/assets")
+
 # index route
 @app.route('/')
 @app.route('/index')
