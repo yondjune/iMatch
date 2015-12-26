@@ -111,7 +111,7 @@ def save():
     tStamp = time.time()
     img_time = time.strftime("%Y-%m-%d-%H-%M", time.localtime(int(tStamp)))
     # full screen
-    img = ImageGrab.grab() # .grab(bbox(10,10,510,510)) X1 Y1 X2 Y2
+    img = ImageGrab.grab(bbox=(538,188,892,698)) #  X1 Y1 X2 Y2
     img_name = img_time + ".jpg"
     img.save(img_path + "/" + img_name)
     # clear the 3 images
