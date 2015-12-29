@@ -115,6 +115,8 @@
 - 9wd2
 	- [x] HTML 和 CSS 美化 结合 june 制作的模板 本地网页端可行
 		- 效果![显示图片成功](http://dn-jeremiahzhang.qbox.me/imatch_finish.png)
+- 10wd6
+	- [x] 屏幕截图问题 从全屏修改为想要的区域 但是是local版电脑端的 手机端的估计得折腾一下
 
 ## 8-10w
 
