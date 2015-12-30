@@ -19,8 +19,8 @@ from bottle import jinja2_template
 from bottle import TEMPLATE_PATH
 
 import time
-import ImageGrab
-### Install PIL ###
+import pyscreenshot as ImageGrab
+### Install PIL, change to import ImageGrab?? ###
 
 ### 常量定义 ###
 ROOT = os.path.dirname(os.path.abspath(__file__))
